@@ -1,0 +1,11 @@
+.career-page{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.career-page button{
+    margin-left: 100px;
+    width: 100px;
+}

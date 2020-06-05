@@ -1,0 +1,33 @@
+body {
+    background-color: #f1d7c1;
+    color: white;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 670px;
+    background-color: #bb1600;
+    box-shadow: rgb(117, 109, 98);
+    border-radius: 30px;
+}
+.container .form-group{
+    font-size: 12px;
+    padding: 7px;
+}
+header{
+    font-weight: 900;
+    font-size: 30px;
+    color:#bb1600 ;
+}
+button{
+    margin-left: 190px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

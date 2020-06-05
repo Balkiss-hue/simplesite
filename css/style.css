@@ -1,0 +1,73 @@
+ /* navigation bar */
+ header{
+    background: url(../images/banner2.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+.navbar .navbar-brand{
+    font-weight: 900;
+    font-size: 30px;
+    color:#bb1600 ;
+}
+.navbar .nav-text .nav-item .nav-link{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+.login-register{
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+.login-register .list .link .btn {
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 0.8em;
+}
+
+/* Banner section */
+.main-banner .btn{
+    border-radius: 100px;
+    border-color: white;
+    width: 170px;
+    background: #bb1600;
+}
+.main-banner{
+    margin-top: 170px;
+    font-size: larger;
+    line-height: 80px;
+}
+.navbar-nav .nav-button .btn{
+    border-color: white;
+    border-radius: 100px;
+}
+.main-banner h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+.main-banner i{
+    font-size: 30px;
+}
+/* content section */
+.container .text-and-img{
+    padding: 30px;
+}
+/* footer */
+footer .card{
+    background: black;
+}
+footer .card .card-body{
+    color: white;
+
+}
+footer .card .card-body b{
+    font-weight: 900;
+    font-size: 20px;
+    color:#bb1600 ;
+}
+footer .card .card-body i{
+    margin-left: 550px;
+}
